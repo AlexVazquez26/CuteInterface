@@ -9,7 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Key Inverted.png" />
     <None Remove="Images\Laptop.jpg" />
+    <None Remove="Images\Logo Inverted.png" />
+    <None Remove="Images\User Inverted.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,7 +21,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\Key Inverted.png" />
     <Resource Include="Images\Laptop.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Logo Inverted.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\User Inverted.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

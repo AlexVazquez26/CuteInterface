@@ -19,5 +19,20 @@ namespace CuteInterface.View
                 DragMove();
             }
         }
+
+        private void BMinimize_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void BClose_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void BLoginClick(object sender, RoutedEventArgs e)
+        {
+            //Login logic here
+        }
     }
 }
